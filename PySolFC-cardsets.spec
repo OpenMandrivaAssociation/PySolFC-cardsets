@@ -3,24 +3,25 @@
 %define arcname %{thegame}-Cardsets
 %define arcwithver %{arcname}-%{version}
 %define version 2.0
-%define release %mkrel 1
+%define release %mkrel 2
 %define pysol_ver 2.0
 %define instdir /usr/share/%{thegame}
 
-Summary: A collection of free cardsets adapted for use with PySol
+Summary: A collection of free cardsets adapted for use with PySolFC
 Name: %{name}
 Version: %{version}
 Release: %{release}
 Source0: %{arcwithver}.tar.bz2
 License: GPL
 Group: Games/Cards
-URL: http://www.oberhumer.com/opensource/pysol/	
+URL: http://pysolfc.sourceforge.net/
 BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildArch: noarch
 Requires: %{thegame} >= %pysol_ver
+Obsoletes: pysol-cardsets
 
 %description
-A collection of 70 free cardsets adapted for use with PySolFC.
+A collection of 153 free cardsets adapted for use with PySolFC.
 
 %prep
 %setup -q -n %{arcwithver}
