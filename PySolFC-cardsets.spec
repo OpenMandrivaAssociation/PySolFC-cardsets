@@ -44,3 +44,40 @@ rm -rf $RPM_BUILD_ROOT
 
 
 
+
+
+%changelog
+* Mon Feb 15 2010 Shlomi Fish <shlomif@mandriva.org> 2.0-2mdv2010.1
++ Revision: 506354
+- Correct some values and add an Obsoletes field
+- import PySolFC-cardsets
+
+
+* Sat Dec 05 2009 Shlomi Fish <shlomif@iglu.org.il> 2.0-1mdv
++ Updated to version 2.0.
+
+* Mon May 26 2008 Shlomi Fish <shlomif@iglu.org.il> 1.1-1mdv
++ Adapted to PySolFC.
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 4.40-7mdv2008.1
++ Revision: 136447
+- restore BuildRoot
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Tue Jun 06 2006 GÃ¶tz Waschk <waschk@mandriva.org> 4.40-7mdk
+- Rebuild
+- use mkrel
+
+* Fri Jun 03 2005 Götz Waschk <waschk@mandriva.org> 4.40-6mdk
+- drop prefix
+- remove the cardsets already in the main package
+
+* Fri Aug 13 2004 Götz Waschk <waschk@linux-mandrake.com> 4.40-5mdk
+- rebuild
+
+* Mon Jul 07 2003 Götz Waschk <waschk@linux-mandrake.com> 4.40-4mdk
+- move files around (fixes bug 4153)
+
