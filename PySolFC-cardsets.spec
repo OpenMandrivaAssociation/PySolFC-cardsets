@@ -3,7 +3,7 @@
 %define arcname %{thegame}-Cardsets
 %define arcwithver %{arcname}-%{version}
 %define version 2.0
-%define release %mkrel 2
+%define release 3
 %define pysol_ver 2.0
 %define instdir /usr/share/%{thegame}
 
