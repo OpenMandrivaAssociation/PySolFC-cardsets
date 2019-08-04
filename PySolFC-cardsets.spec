@@ -3,7 +3,7 @@
 %define arcname %{thegame}-Cardsets
 %define arcwithver %{arcname}-%{version}
 %define version 2.0
-%define release 3
+%define release 4
 %define pysol_ver 2.0
 %define instdir /usr/share/%{thegame}
 
@@ -67,17 +67,17 @@ rm -rf $RPM_BUILD_ROOT
     - kill re-definition of %%buildroot on Pixel's request
 
 
-* Tue Jun 06 2006 Götz Waschk <waschk@mandriva.org> 4.40-7mdk
+* Tue Jun 06 2006 GÃ¶tz Waschk <waschk@mandriva.org> 4.40-7mdk
 - Rebuild
 - use mkrel
 
-* Fri Jun 03 2005 G�tz Waschk <waschk@mandriva.org> 4.40-6mdk
+* Fri Jun 03 2005 Götz Waschk <waschk@mandriva.org> 4.40-6mdk
 - drop prefix
 - remove the cardsets already in the main package
 
-* Fri Aug 13 2004 G�tz Waschk <waschk@linux-mandrake.com> 4.40-5mdk
+* Fri Aug 13 2004 Götz Waschk <waschk@linux-mandrake.com> 4.40-5mdk
 - rebuild
 
-* Mon Jul 07 2003 G�tz Waschk <waschk@linux-mandrake.com> 4.40-4mdk
+* Mon Jul 07 2003 Götz Waschk <waschk@linux-mandrake.com> 4.40-4mdk
 - move files around (fixes bug 4153)
 
