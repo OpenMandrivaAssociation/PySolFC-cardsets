@@ -14,7 +14,7 @@ Release: %{release}
 Source0: %{arcwithver}.tar.bz2
 License: GPL
 Group: Games/Cards
-URL: http://pysolfc.sourceforge.net/
+URL: https://pysolfc.sourceforge.net/
 BuildArch: noarch
 Requires: %{thegame} >= %pysol_ver
 Obsoletes: pysol-cardsets
